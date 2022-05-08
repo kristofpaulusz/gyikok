@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A rock, paper, scizzor game with Lizards"
+    />
+    <meta name="keywords" content="Lizard, Rock, Paper, Scissor" />
+    <meta name="author" content="Paulusz Kristóf" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lizard RPS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="picks/logo.png" alt="" />
+        <hr />
+        <nav>
+          <ul>
+            <li><a href="index.html">Main Page</a></li>
+            <li><a href="#">About the project</a></li>
+            <li><a href="#">About the authors</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        <div id="gyikok">
+          <img src="picks/3lizards.jpg" alt=""></div>
+        <h1>Description</h1>
+        <p>
+          Lizard Rps is a rock-paper-scissor game based on the mating behaviors
+          of the Common side-blotched lizard. This breed of lizards have three different color
+          variants and every color employs different strategies while competing
+          for mating opportunities. Coincindentally this is remarkably similar
+          to a rock-paper-scissor game. <a href="https://youtu.be/rafdHxBwIbQ">For further information see this video.</a>
+        </p>
+        <h1>Rules:</h1>
+        <p>The rules are very simple: <ul style="color: white;">
+          <li>  <span style="color: orange;">Orange</span> beats <span style="color: rgb(113, 156, 236);">blue</span> </li>
+          <li><span style="color: rgb(113, 156, 236);">blue</span> beats <span style="color: yellow;">yellow</span> </li>
+          <li><span style="color: yellow;">yellow</span> beats <span style="color: orange;">Orange</span></li>
+        </ul> ...Have fun!</p>
+      </article>
+      <!-- <div id="mojave"><img src="picks/mojave.jpg" alt=""></div> -->
+      <div id="game">
+        <div class="score-board">
+          <div id="user-label" class="badge" style="color: lightseagreen">
+            Your lizards:
+          </div>
+          <div id="computer-label" class="badge" style="color: red">
+            Computer's lizards:
+          </div>
+          <span id="user-score" style="color: lightseagreen">0</span>:<span
+            id="computer-score"
+            style="color: red"
+            >0</span
+          >
+        </div>
+
+        <div class="result">Release the lizards!</div>
+
+        <div class="choices">
+          <div class="choice" id="o">
+            <img src="picks/orange.png" alt="" />
+          </div>
+          <div class="choice" id="b">
+            <img src="picks/blue.png" alt="" />
+          </div>
+          <div class="choice" id="y">
+            <img src="picks/yellow.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <footer>All rights reserved © 2022</footer>
+    </main>
+  </body>
+</html>

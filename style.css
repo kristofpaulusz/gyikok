@@ -1,0 +1,128 @@
+body {
+    background-color: brown;
+    background-image: url(picks/mojave.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(240, 162, 61);
+    /* color: ; */
+}
+main {
+    background-color: rgba(58, 58, 58, 0.849);
+    display: grid;
+    grid-template-areas: 'h h'
+                         'a a'
+                         'g g'
+                         'f f';
+    width: 80%;
+    margin: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* color: rgb(240, 162, 61); */
+    color: rgb(51, 51, 51);
+    padding: 10px;
+}
+nav ul li a:visited {
+    
+    /* color: rgb(240, 162, 61); */
+    color: rgb(51, 51, 51);
+}
+nav ul li a:hover {
+    color: rgb(240, 162, 61);
+    /* color: mediumaquamarine; */
+}
+nav ul li {
+    display: inline;
+}
+article {
+    grid-area: a;
+    /* text-align: center; */
+    padding: 10px;
+    font-size: x-large;
+}
+article h1 {
+    text-align: center;
+}
+article a:visited {
+    text-decoration: none;
+    color: brown;
+}
+article a {
+    text-decoration: none;
+    color: brown;
+}
+article a:hover {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+header {
+    grid-area: h;
+    text-align: center;
+    background-color: white;
+}
+footer {
+    grid-area: f;
+    text-align: center;
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+#game {
+    grid-area: g;
+}
+/* #mojave {
+    grid-area: m;
+    width: 50%;
+} */
+#mojave img {
+    width: 100%;
+}
+.score-board {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+.result {
+    text-align: center;
+    font-size: larger;
+    
+}
+.choices {
+    text-align: center;
+    font-size: larger;
+}
+.choice {
+    display: inline-block;
+    margin: 0px 10px;
+    border-radius: 6px;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+}
+.choices img {
+    height: 250px;
+    background-color: rgb(255, 228, 188);
+    padding: 20px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
+.white-glow {
+    border: 4px solid white;
+    box-shadow: 0 0 200px white;
+}
+#gyikok {
+    /* grid-area: gy; */
+    text-align: center;
+}
+#gyikok img {
+    width: 70%;
+    border-radius: 50%;
+    /* margin: auto; */
+    /* margin-top: 100px;
+    margin-right: 100px; */
+    /* float: right; */
+}
